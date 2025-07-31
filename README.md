@@ -50,6 +50,7 @@ Uso de Django para cadastramento de produto e envio de e-mail
 
 - Visualizar, criar, editar, excluir produtos no Banco de Dados:
 ![alt text](imagens/07_admin.png)
+![alt text](imagens/08_admin.png)
 
 - Roteiro de construção:
 
