@@ -94,7 +94,7 @@ Uso de Django para cadastramento de produto e envio de e-mail
     - python manage.py runserver
 
 
-Arquivo:
+- Arquivo:
     - core:
         - migrations:
             - __0001_initial.py__: Modelagem automática após __models.py__
