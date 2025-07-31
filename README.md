@@ -22,7 +22,7 @@ Uso de Django para cadastramento de produto e envio de e-mail
 - Pagina de contato é possível simular envio de e-mail:
 ![Pagina de contato](imagens/09_contato.png)
 
-No terminal terminal é possível acompanhar a simulação do envio de e-mail:
+- No terminal terminal é possível acompanhar a simulação do envio de e-mail:
 ![Resposta do terminal](imagens/10_email.png)
 
 - Pagina de produto é responsável por cadastramento de um produto no Banco de Dados, porem possui uma restrição para usuários cadastrado:
