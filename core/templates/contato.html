@@ -1,0 +1,27 @@
+{% load bootstrap4 %} <!-- #11 Carrega o template com bootstrap4 para estilização -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    {% bootstrap_css %} <!-- #11 Link para o arquivo CSS do Bootstrap -->
+</head>
+<body>
+    <div class="container">
+        <h1>Contato</h1>
+        {% bootstrap_messages %} <!-- #11 Exibe mensagens de feedback do usuário -->
+
+        <!-- #11 Formulário para envio de mensagem -->
+        <form action="{% url 'contato' %}" method="post" class="form" autocomplete="off"> 
+            {% csrf_token %} <!-- #11 Proteção contra CSRF -->
+
+            {% bootstrap_form form %} <!-- #11 Renderiza o formulário com Bootstrap -->
+
+            {% buttons %} <!-- #11 Botões estilizados -->
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            {% endbuttons %} <!-- #11 Fecha os botões -->
+        </form>
+    </div>
+{% bootstrap_javascript jquery='full' %} <!-- #11 Link para o JavaScript do Bootstrap -->
+</body>
+</html>
