@@ -115,6 +115,6 @@ Uso de Django para cadastramento de produto e envio de e-mail
     - projeto:
         - __settings.py__: Configurações Django
         - __urls.py__: Adição de rotas requisições __views.py__ para templates (Paginas HTML)
-    - __.env__: Variáveis de ambiente (dados sensíveis)
+    - __.env__: Variáveis de ambiente (utilize env.txt como parâmetro)
 
 - OBS: __arquivos estáticos__ (static) são quaisquer elementos CSS, JavaScript e imagens ou documentos.
